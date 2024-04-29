@@ -53,21 +53,11 @@
           <button class="btn btn-outline-secondary" type="button" onclick="copyToClipboard('php-upgrade')">Copy</button>
         </div>
         <p>If you need to update PHP to the latest version in the future, you can run the above command.</p>
-
-        <hr>
-
-        <p><strong>9. Link PHP version to MAMP:</strong> After installing the latest PHP version, you need to link it to MAMP. You can do this by creating a symbolic link to the PHP binary in the MAMP directory. For example, if you installed PHP using Homebrew, you would run:</p>
-        <div class="input-group mb-3">
-          <textarea id="php-link" class="form-control" rows="1" readonly>ln -s /usr/local/bin/php /Applications/MAMP/bin/php/php<version>/bin/php</textarea>
-          <button class="btn btn-outline-secondary" type="button" onclick="copyToClipboard('php-link')">Copy</button>
-        </div>
-        <p>Make sure to replace `< version >` with the specific version number of PHP you installed.</p>
-        
       </li>
     </ol>
   </div>
 </div>
-
+<!-- Button to view Japanese version -->
 <div class="fixed-bottom m-3">
   <a href="#" class="btn btn-primary float-end" onclick="window.location.href='instal-php-mac-ja.html';">Japanese Version</a>
 </div>
